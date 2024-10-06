@@ -44,3 +44,12 @@
 
 
 
+#######################logical operators challenge#####################
+# Challenge: Check if a number is divisible by 3 or 7, but not both.
+# The program prompts the user for a number and outputs the result.
+
+# Prompt the user for a number
+
+# Check divisibility by 3 or 7 but not both
+
+# Output the result to the console

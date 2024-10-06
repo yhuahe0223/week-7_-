@@ -45,3 +45,13 @@
 # 3: tres / três / three
 # 4: cuatro / quatro / four
 # 5: cinco / cinco / five
+
+
+#######################zip function challenge#####################
+# Challenge: Create a list of countries and their capitals, then zip them together and print
+# each country with its capital.
+
+# Two lists: countries and capitals
+
+
+# Use zip to pair countries with their capitals

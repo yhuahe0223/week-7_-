@@ -85,6 +85,16 @@ knows_python = False
 # If age is less than 50 then print I am quadragenarian
 
 
-# Decision Making Practice #1
+# Decision Making Practice #5
 # ask the user for their age
 # if the user's  is between 18 - 21 , print they can vote, other wise print better luck next time.
+
+
+#######################decision making challenge#####################
+# Challenge: Determine if a user is eligible to vote, drink, or retire based on their age.
+# The program prompts the user for their age and outputs their eligibility.
+
+# Prompt the user for age
+
+
+# Check conditions for voting, drinking, and retirement

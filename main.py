@@ -10,6 +10,8 @@ from learning import loops
 
 from learning import min_max
 
+from learning import random
+
 from learning import logical_operators
 
 from learning import decision_making

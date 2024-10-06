@@ -59,3 +59,10 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 
 
 
+#######################comparison operators challenge#####################
+# Challenge: Compare two numbers entered by the user and check if they are equal or not.
+# If they are not equal, print which one is greater.
+
+# Prompt the user for two numbers
+
+# Check for equality and greater number

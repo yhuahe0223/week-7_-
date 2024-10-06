@@ -76,3 +76,17 @@
 
 
 
+#######################ranges challenge#####################
+# Challenge: Create a list of all numbers from 10 to 100 that are divisible by both 4 and 6.
+
+# Use a range and list comprehension to find numbers divisible by 4 and 6
+
+# Print the result
+
+
+#######################enumerators challenge#####################
+# Challenge: Print the index and name of each fruit in a list using the enumerate() function.
+
+# List of fruits
+
+# Use enumerate to display each fruit with its index

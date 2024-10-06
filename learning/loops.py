@@ -154,3 +154,7 @@ monthConversions = {
 #call the dictionary favActors_Movies
 # call the dictionary twice finding at least two movies
 
+#######################loops challenge#####################
+# Challenge: Print all even numbers from 1 to 100 using a for loop.
+
+# Loop through numbers 1 to 100

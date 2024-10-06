@@ -97,3 +97,15 @@
 # y = [1, 2, 3]
 # print(x is not y)  # True
 # Remember, every boolean expression will evaluate to either True or False, and understanding this concept is fundamental for decision-making in programming.
+
+
+#######################boolean expressions challenge#####################
+# Challenge: Check if a number is both even and divisible by 5.
+# The program prompts the user for a number, checks whether it meets both conditions 
+# (even and divisible by 5), and then outputs the result to the console.
+
+# Prompt the user for a number
+
+# Check if the number is even and divisible by 5
+
+# Output the result to the console
