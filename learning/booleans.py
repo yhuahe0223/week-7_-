@@ -94,6 +94,7 @@
 
 
 #######################boolean expressions challenges#####################
+# 20 points each challenge...
 # problem 1: Check if a number is both even and divisible by 5.
 # The program prompts the user for a number, checks whether it meets both conditions 
 # (even and divisible by 5), and then outputs the result to the console.
