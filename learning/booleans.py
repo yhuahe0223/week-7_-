@@ -99,7 +99,7 @@
 # Remember, every boolean expression will evaluate to either True or False, and understanding this concept is fundamental for decision-making in programming.
 
 
-#######################boolean expressions challenge#####################
+#######################boolean expressions challenges#####################
 # problem 1: Check if a number is both even and divisible by 5.
 # The program prompts the user for a number, checks whether it meets both conditions 
 # (even and divisible by 5), and then outputs the result to the console.
