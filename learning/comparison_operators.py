@@ -47,8 +47,9 @@ my_bool = 36 >= num2
 # Inside num1, store the result of the square root of 25
 # Inside num2, store the number 5.
 # Check if num1 is equal to num2 and store the result of that comparison in a variable called my_bool.
-# num1 = math.sqrt(25)
-# num2 = 5 
+import math
+num1 = math.sqrt(25)
+num2 = 5 
 
 # Comparison Operators Practice #3:
 # Create two variables (num1 and num2):
