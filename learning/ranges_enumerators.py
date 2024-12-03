@@ -5,6 +5,44 @@
 # Range Practice #1
 # Create a list consisting of all the numbers from 2500 to 2585 (inclusive). Store this list in the variable my_list.
 
+#list comprehention = A concise way to create lists in Python Compact amd easier to read than traditional loops [expression for value in iterable if condition]
+
+# doubles = []
+# for x in range(1,11):
+#     doubles.append(x*2)
+
+# print(doubles)
+###############################################################
+# doubles = [ x *2 for x in range(1,11)]
+# tripes = [y  * 3 for y in range(1,11)]
+# squares = [ z*z for z in range(1,11)]
+
+
+# print(doubles)
+# print(tripes)
+# print(squares)
+#############################################################
+# fruits = ["apple"," mango",' bannana','coconut']
+# fruit_chars = [fruit[1]for fruit in fruits]
+
+# print(fruit_chars)
+###############################################################
+# numbers = [1,-2, 3,4,5,-6]
+# positive_nums = [num for num in numbers if num>= 0 ]
+# negative_nums = [num for num in numbers if num< 0 ]
+# evens_nums = [num for num in numbers if num %2 == 0 ]
+# odd_nums = [num for num in numbers if num %2 == 1]
+# print(positive_nums)
+# print(negative_nums)
+# print(evens_nums)
+# print(odd_nums)
+
+grades = [85,42,79,61,30,90]
+passing_grades  = [grade for grade in grades if grade >= 60]
+
+print(passing_grades)
+
+
 
 
 # Range Practice #2
