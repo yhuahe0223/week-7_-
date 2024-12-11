@@ -70,12 +70,29 @@ print((brand))
 # 4: cuatro / quatro / four
 # 5: cinco / cinco / five
 
+first = ['uno', 'um', 'one']
+second= ['dos', 'dois', 'two']
+third = ['tres', 'tres', 'three']
+fourth = ['cuatro', 'quatro', 'four']
+fith = ['cinco', 'cinco', 'five']
+
+numbers = zip(first, second, third, fourth, fith)
+
+for i in numbers:
+    print (i)
+
 
 #######################zip function challenge#####################
 # Challenge: Create a list of countries and their capitals, then zip them together and print
 # each country with its capital.
 
 # Two lists: countries and capitals
-
+country = ('Canada', "USA", 'Mexico')
+capitals = ('Ottawa', 'Washington DC', 'Mexico City')
 
 # Use zip to pair countries with their capitals
+
+pairs = zip(country, capitals)
+
+for i in pairs : 
+    print(i)
