@@ -22,10 +22,12 @@
 # print(tripes)
 # print(squares)
 #############################################################
-# fruits = ["apple"," mango",' bannana','coconut']
+fruits = ["apple"," mango",' bannana','coconut']
 # fruit_chars = [fruit[1]for fruit in fruits]
 
 # print(fruit_chars)
+word_legnths = [len() for word in fruits]
+print(word_legnths)
 ###############################################################
 # numbers = [1,-2, 3,4,5,-6]
 # positive_nums = [num for num in numbers if num>= 0 ]
@@ -37,10 +39,15 @@
 # print(evens_nums)
 # print(odd_nums)
 
-grades = [85,42,79,61,30,90]
-passing_grades  = [grade for grade in grades if grade >= 60]
+# grades = [85,42,79,61,30,90]
+# passing_grades  = [grade for grade in grades if grade >= 60]
 
-print(passing_grades)
+# print(passing_grades)
+
+# numbers = [ 3, 7, 10, 15, 21]
+# doubled_values = [ value * 2 for value in numbers]
+
+# print( doubled_values)
 
 
 

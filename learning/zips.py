@@ -1,3 +1,21 @@
+## zip(*iterables) = aggregate elemts from two or more iterables (list, tuples, sets, etc.)
+#                    creates a zip object with paired stored in tuples for each element
+
+# usernames = ['Dude','Bro', 'Mister']
+# passwords= ('damn', 'abc123', 'guest')
+
+# users = dict(zip(usernames, passwords))
+# print(type(users ))
+# login_date = ['1/1/2021','1/3/2024','1/3/2024']
+# # for key, value in users.items():
+# #     print(key+":"+value)
+
+# users = zip(usernames,passwords,login_date)
+# for i in users: 
+#     print(i)
+
+
+
 
 
 
@@ -12,16 +30,22 @@
 
 # Use the zip function, loops, and the following lists of countries and capitals to solve it quickly and efficiently.
 
-# capitals = ["Berlin", "Tokyo", "Paris", "Helsinki", "Ottawa", "Canberra"]
-# countries = ["Germany", "Japan", "France", "Finland", "Canada", "Australia"]
+capitals = ["Berlin", "Tokyo", "Paris", "Helsinki", "Ottawa", "Canberra"]
+countries = ["Germany", "Japan", "France", "Finland", "Canada", "Australia"]
 
+countCaps = dict(zip(countries,capitals))
+
+for count,cap in countCaps.items():
+    print('The capital of '+ count+' is '+ cap)
 
 
 # Zip Practice #2
 # Create a zip object made up of lists, of a set of brands and products that you prefer, inside the my_zip variable.
-# brands =
-# products =
+brands = ['nike','lelabo','GM','Acne']
+products =['shoes','perfume','glasses','Jeans']
 
+brand = dict(zip(brands,products))
+print((brand))
 
 # Zip Practice #3
 # Create a zip object with the translations of the numbers from 1 to 5 in Spanish, Portuguese and English (in that same order), and then convert the generated object into a list called numbers:
